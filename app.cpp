@@ -8,8 +8,10 @@
 int main()
 {
     int val = 0;
+
     printf("Please insert your number:\n");
     scanf("%d", &val);
+    
     if (val % 2 == 0)
     {
         printf("The value %d is an even number", val);
