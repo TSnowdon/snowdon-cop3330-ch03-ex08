@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
 int main()
 {
     int val = 0;
@@ -14,11 +15,9 @@ int main()
     
     if (val % 2 == 0)
     {
-        printf("The value %d is an even number", val);
-    }
-    else if (val % 2 == 1)
-    {
-        printf("The value %d is not an even number", val);
+        printf("%d is even", val);
+    } else {
+        printf("%d is odd", val);
     }
     return 0;
 }
