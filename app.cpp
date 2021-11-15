@@ -5,7 +5,18 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(){
-    printf("Hello World");
+int main()
+{
+    int val = 0;
+    printf("Please insert your number:\n");
+    scanf("%d", &val);
+    if (val % 2 == 0)
+    {
+        printf("The value %d is an even number", val);
+    }
+    else if (val % 2 == 1)
+    {
+        printf("The value %d is not an even number", val);
+    }
     return 0;
 }
